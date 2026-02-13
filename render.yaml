@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: sudoku-backend
+    env: node
+    rootDir: backend
+    buildCommand: "npm install"
+    startCommand: "node server.js"
+
+staticSites:
+  - name: mini-sudoku-frontend
+    rootDir: frontend
+    buildCommand: ""
+    staticPublishPath: "."
