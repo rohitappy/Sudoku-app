@@ -4,7 +4,7 @@
   "description": "A simple sudoku app",
   "main": "server.js",
   "scripts": {
-    "start": "yarn server.js"
+    "start": "yarn ./server.js"
   },
   "author": "Your Name",
   "license": "ISC"
